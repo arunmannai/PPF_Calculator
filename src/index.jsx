@@ -1,5 +1,4 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PPFcalc from "./PPFcalc";
 
 export default function App() {
