@@ -49,9 +49,9 @@ const PPFcalc = () => {
 
   
   return (
-    <div className="m-5">
+    <div className="m-3">
       <h2 className="mb-3 text-center">PPF Calculator</h2>
-      <div className="container border border-secondary p-5">
+      <div className="container p-3">
         <div className="row">
           <div className="col-md-6">
             <div className="d-flex justify-content-between align-items-center mb-3">
