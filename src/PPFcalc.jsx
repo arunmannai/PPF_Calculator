@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import DonutChart from './DonutChart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
@@ -10,8 +10,6 @@ const PPFcalc = () => {
   const rate = parseFloat(import.meta.env.VITE_API_INTEREST_RATE) / 100;
   const [error, setError] = useState('');
   
-
-
   const ci = (amt, n) => {
     return amt * (1 + rate) ** n;
   };

@@ -1,18 +1,21 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 .green {
-    background-color: #ebf9f5;
-    color: #00b386;
+  background-color: #ebf9f5;
+  color: #00b386;
 }
+
 .number {
-    width: 70px;
-    border: none;
-    text-align: right;
-    font-weight: bold;
+  width: 70px;
+  border: none;
+  text-align: right;
+  font-weight: bold;
 }
+
 .number:focus {
-    outline: none;
+  outline: none;
 }
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -24,18 +27,17 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
 .error-icon {
-    color: red;
-    position: relative;
-  }
-  .error-message
-  {
-    color: red;
-    position: relative;
-  }
-  .input-container {
-    position: relative;
-  
-  }
-  
-  
+  color: red;
+  position: relative;
+}
+
+.error-message {
+  color: red;
+  position: relative;
+}
+
+.input-container {
+  position: relative;
+}

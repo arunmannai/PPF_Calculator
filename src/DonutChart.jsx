@@ -1,6 +1,5 @@
 import { Chart } from "react-google-charts";
 
-
 function DonutChart(props) {
  
   const data = [
